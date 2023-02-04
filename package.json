@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "packageManager": "pnpm@7.26.2",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@so1ve/eslint-config": "^0.45.0",
+    "@unocss/nuxt": "^0.49.4",
+    "@unocss/reset": "^0.49.4",
+    "eslint": "^8.33.0",
+    "nuxt": "3.1.2",
+    "typescript": "^4.9.5"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vite",
+        "webpack"
+      ]
+    }
+  }
+}
