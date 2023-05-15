@@ -1,5 +1,3 @@
 <template>
-  <div>
-    NUXTIFY
-  </div>
+  <div>NUXTIFY</div>
 </template>
