@@ -13,7 +13,7 @@
   "devDependencies": {
     "@so1ve/eslint-config": "^0.92.0",
     "@unocss/nuxt": "^0.52.0",
-    "@unocss/reset": "^0.51.0",
+    "@unocss/reset": "^0.52.0",
     "eslint": "^8.33.0",
     "nuxt": "3.5.1",
     "typescript": "^5.0.0"
