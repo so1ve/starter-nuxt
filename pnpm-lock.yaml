@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@so1ve/eslint-config': ^0.92.0
   '@unocss/nuxt': ^0.52.0
-  '@unocss/reset': ^0.51.0
+  '@unocss/reset': ^0.52.0
   eslint: ^8.33.0
   nuxt: 3.5.1
   typescript: ^5.0.0
@@ -11,7 +11,7 @@ specifiers:
 devDependencies:
   '@so1ve/eslint-config': 0.92.0_opaykosi7ysrbskpnffskmbrki
   '@unocss/nuxt': 0.52.0
-  '@unocss/reset': 0.51.13
+  '@unocss/reset': 0.52.0
   eslint: 8.41.0
   nuxt: 3.5.1_opaykosi7ysrbskpnffskmbrki
   typescript: 5.0.4
@@ -1650,10 +1650,6 @@ packages:
     dependencies:
       '@unocss/core': 0.52.0
       '@unocss/preset-mini': 0.52.0
-    dev: true
-
-  /@unocss/reset/0.51.13:
-    resolution: {integrity: sha512-xwYJW6vNbHIpBtlFcW93fZxILZpWatcCc9nclSgsl0YlFUz9w4/aoV9KqwU62Y4VUteJxCZCCXa3pSiPO8h5KA==}
     dev: true
 
   /@unocss/reset/0.52.0:
