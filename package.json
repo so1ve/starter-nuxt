@@ -15,7 +15,7 @@
     "@unocss/nuxt": "^0.52.0",
     "@unocss/reset": "^0.52.0",
     "eslint": "^8.33.0",
-    "nuxt": "3.5.1",
+    "nuxt": "3.5.2",
     "typescript": "^5.0.0"
   },
   "pnpm": {
