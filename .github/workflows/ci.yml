@@ -19,7 +19,7 @@ jobs:
         uses: pnpm/action-setup@v2.4.0
 
       - name: Set node
-        uses: actions/setup-node@bea5baf987ba7aa777a8a0b4ace377a21c45c381 # v3
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3
         with:
           node-version: 16.x
           cache: pnpm
@@ -65,7 +65,7 @@ jobs:
         uses: pnpm/action-setup@v2.4.0
 
       - name: Set node
-        uses: actions/setup-node@bea5baf987ba7aa777a8a0b4ace377a21c45c381 # v3
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3
         with:
           node-version: 16.x
           cache: pnpm
