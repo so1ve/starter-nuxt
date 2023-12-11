@@ -11,7 +11,7 @@
     "typecheck": "nuxt typecheck"
   },
   "devDependencies": {
-    "@so1ve/eslint-config": "^0.110.0",
+    "@so1ve/eslint-config": "^0.123.0",
     "@unocss/nuxt": "^0.53.0",
     "@unocss/reset": "^0.53.0",
     "eslint": "^8.33.0",
