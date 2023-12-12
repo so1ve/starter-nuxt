@@ -1,29 +1,31 @@
 {
-  "private": true,
-  "packageManager": "pnpm@8.12.0",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "postinstall": "nuxt prepare",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "typecheck": "nuxt typecheck"
-  },
-  "devDependencies": {
-    "@so1ve/eslint-config": "^0.110.0",
-    "@unocss/nuxt": "^0.53.0",
-    "@unocss/reset": "^0.53.0",
-    "eslint": "^8.33.0",
-    "nuxt": "3.8.2",
-    "typescript": "^5.0.0"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "vite",
-        "webpack"
-      ]
-    }
-  }
+	"private": true,
+	"packageManager": "pnpm@8.12.0",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint . && prettier . --check",
+		"lint:fix": "eslint . --fix && prettier . --write",
+		"typecheck": "nuxt typecheck"
+	},
+	"devDependencies": {
+		"@so1ve/eslint-config": "^1.0.1",
+		"@so1ve/prettier-config": "^1.0.1",
+		"@unocss/nuxt": "^0.53.0",
+		"@unocss/reset": "^0.53.0",
+		"eslint": "^8.33.0",
+		"nuxt": "3.8.2",
+		"prettier": "^3.1.1",
+		"typescript": "^5.0.0"
+	},
+	"pnpm": {
+		"peerDependencyRules": {
+			"ignoreMissing": [
+				"vite",
+				"webpack"
+			]
+		}
+	}
 }

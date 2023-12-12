@@ -1,5 +1,4 @@
 {
-  "yaml.schemas": {
-    "https://json.schemastore.org/github-workflow.json": "file:///e%3A/Node/homepage-nuxt/.github/workflows/deploy.yml"
-  }
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"eslint.experimental.useFlatConfig": true
 }

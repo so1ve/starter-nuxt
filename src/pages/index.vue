@@ -1,3 +1,3 @@
 <template>
-  <div>NUXTIFY</div>
+	<div>starter-nuxt</div>
 </template>
