@@ -1,9 +1,6 @@
 export default defineNuxtConfig({
 	srcDir: "./src",
 	modules: ["@unocss/nuxt"],
-	unocss: {
-		preflight: true,
-	},
 	app: {
 		head: {
 			title: "starter-nuxt",
@@ -58,5 +55,8 @@ export default defineNuxtConfig({
 	},
 	typescript: {
 		shim: false,
+	},
+	unocss: {
+		preflight: true,
 	},
 });
