@@ -56,6 +56,10 @@ export default defineNuxtConfig({
 	typescript: {
 		shim: false,
 	},
+	experimental: {
+		typedPages: true,
+		watcher: "parcel",
+	},
 	unocss: {
 		preflight: true,
 	},
